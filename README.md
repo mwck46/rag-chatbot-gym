@@ -16,9 +16,9 @@ openai
 
 ## Overview
 
-1) **Data Scraping**: extracts Q&A data from a FAQ support page of a brand called 'Fitness Passport', using Python's `requests` and `BeautifulSoup`
-1) **Data Handling**: cleans, chunks, and embeds the scraped data using Sentence Transformers
-1) **Retrieval & Query Processing**: Stores embeddings in vector DB - ChromaDB and retrieves context for user queries
+1) **Data Scraping**: extracts Q&A data from a FAQ support page of a brand called 'Fitness Passport'
+1) **Data Handling**: indexing the document using chromadb's build-in embedding algorithm
+1) **Retrieval & Query Processing**: embed questions using sentence-transformers/all-MiniLM-L6-v2, and query chroma db
 
 
 
